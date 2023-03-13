@@ -653,20 +653,76 @@ body {
         width:30vw;
         margin-top: 4rem;
     }
-    .bar-container {
-        width:
-    }
-
     section {
         padding:3rem 3% 3rem;
     }
-
 }
-@media (max-width:425px){
+@media (max-width:428px){
 
-    .home{
-        margin-left:60px;
+    .home {
+        padding:70px 10% 27px;
+    }
+    .home-content h3 {
+        font-size: 2rem;
+    }
+    .home-content h1 {
+        font-size: 2.7rem;
+    }
+    .social-media a {
+        width:30px;
+        height:28px;
+        font-size: 15px;
+        margin:10px 15px 13px 0;
+    }
+    .btn {
+        padding:8px 16px;
+        font-size: 10px;
+    }
+    .home-img img {
+        animation: zoomIn 0s ease forwards, ease-in-out infinite;
+        border-radius: 15px;
+        width:150px;
+    }
+    .about {
+        width:512px;
+    }
+    .about__content h2 {
+        font-size: 3rem;
+    }
+    .about__content h3 {
+        font-size: 2rem;
     }
     
-    
+    /* SKILL */
+    .services {
+        margin-left: 90px;
+    }
+    .progress-bar {
+        width:400px;
+    }
+
+    /* projects */
+    .portfolio {
+        width:512px;
+    }
+    .portfolio-container{
+        display:gid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .portfolio__box img {
+        width:70%;
+        border-radius:4rem;
+        margin-left:4rem;
+    }
+    .contact {
+        width:428px;
+        margin-left: 5rem;
+    }
+    .contact form .input-box input {
+        width:100%;
+    }
+    .footer {
+        width:509px;
+    }
+
 }

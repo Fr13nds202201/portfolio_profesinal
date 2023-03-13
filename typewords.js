@@ -7,8 +7,6 @@ menuIcon.onclick = () =>{
     navbar.classList.toggle('active');
 }
 
-navbar.classList.remove('active');
-menuIcon.classList.remove('bx-x');
 
 
 //############ escritura typed  #################
