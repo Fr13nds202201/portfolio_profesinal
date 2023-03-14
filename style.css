@@ -657,10 +657,10 @@ body {
         padding:3rem 3% 3rem;
     }
 }
-@media (max-width:428px){
+@media (max-width:425px){
 
     .home {
-        padding:70px 10% 27px;
+        padding:60px 15% 30px 97px;
     }
     .home-content h3 {
         font-size: 2rem;
@@ -681,7 +681,8 @@ body {
     .home-img img {
         animation: zoomIn 0s ease forwards, ease-in-out infinite;
         border-radius: 15px;
-        width:150px;
+        width:126px;
+        margin-top: 30px;
     }
     .about {
         width:512px;
@@ -723,6 +724,41 @@ body {
     }
     .footer {
         width:509px;
+    }
+
+}
+@media (max-width:375px){
+    .header {
+        max-width:433px;
+        width:430px;
+    }
+    .about {
+        width:451px;
+    }
+    .portfolio{
+        width:451px;
+    }
+
+    .home-content {
+        margin-left:80px
+    }
+    .home-content p {
+        width:350px;
+    }
+    .home-img img{
+        margin-left: 80px;
+        width:130px;
+    }
+    .contact{
+        margin-left:2rem;
+    }
+    .footer{
+        width:451px;
+    }
+}
+@media (max-width:321px) {
+    .about {
+        width:200px;
     }
 
 }
