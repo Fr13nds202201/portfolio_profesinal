@@ -729,8 +729,7 @@ body {
 }
 @media (max-width:375px){
     .header {
-        max-width:433px;
-        width:430px;
+        width:450px;
     }
     .about {
         width:451px;
