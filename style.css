@@ -729,7 +729,10 @@ body {
 }
 @media (max-width:376px){
     .header {
-        width:450px;
+        width:375px;
+    }
+    .home-content h1 {
+        color:red;
     }
     .about {
         width:451px;
