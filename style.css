@@ -727,7 +727,7 @@ body {
     }
 
 }
-@media (max-width:375px){
+@media (max-width:376px){
     .header {
         width:450px;
     }
@@ -754,10 +754,4 @@ body {
     .footer{
         width:451px;
     }
-}
-@media (max-width:321px) {
-    .about {
-        width:200px;
-    }
-
 }
