@@ -727,12 +727,18 @@ body {
     }
 
 }
-@media (max-width:376px){
+@media (max-width:375px){
     .header {
         width:375px;
     }
+    .home {
+        padding:100px 37% 100px 79px;
+    }
+    .home-content p {
+        width:260px;
+    }
     .home-content h1 {
-        color:red;
+        color:yellow;
     }
     .about {
         width:451px;
