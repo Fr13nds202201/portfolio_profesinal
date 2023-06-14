@@ -1,12 +1,40 @@
 //############ toggle icon narvar  #################
-let menuIcon = document.querySelector('#menu-icon');
-let navbar = document.querySelector('.navbar');
+const dark = document.querySelector('#contenedor');
+const body = document.querySelector('body');
+const toggle = document.querySelector('#toggle');
 
-menuIcon.onclick = () =>{
-    menuIcon.classList.toggle('bx-x');
-    navbar.classList.toggle('active');
+
+load();
+
+dark.addEventListener('click', e => {
+body.classList.toggle('darkMode');
+store(body.classList.contains('darkMode'));
+
+toggle.classList.toggle('active');
+});
+
+//almacenar el cambio y persistir modo
+function load() {
+    const darkMode = localStorage.getItem('darkMode');
+
+    if (!darkMode) {
+        store('false');
+    }else if (darkMode === 'true'){
+        body.classList.add('darkMode');
+    }
 }
 
+function store(value) {
+    localStorage.setItem('darkmode',value);
+}
+
+let varContenedor = document.getElementById('contenedor');
+
+varContenedor.addEventListener('click',function cambiar() {
+    
+    varContenedor.classList.toggle("container1");
+    varContenedor.classList.toggle('container');
+});
 
 
 //############ escritura typed  #################
@@ -39,6 +67,15 @@ var type3 = new Typed(".contact__me", {
     backDelay:1000,
     loop:true
 })
+
+const menuIcon = document.querySelector('#menu-icon');
+const navbar = document.querySelector('.navbar');
+
+menuIcon.onclick = function(){
+    menuIcon.classList.toggle('bx-x');
+    navbar.classList.toggle('active');
+}
+
 
 
 
