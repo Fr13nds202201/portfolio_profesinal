@@ -833,11 +833,11 @@ body {
     }
 }
 
-@media (max-width:425px) {
+@media (max-width:375px) {
 
-    .home {
+    /* .home {
         padding: 60px 15% 30px 97px;
-    }
+    } */
 
     .home-content h3 {
         font-size: 2rem;
@@ -879,9 +879,6 @@ body {
     }
 
     /* SKILL */
-    .services {
-        margin-left: 90px;
-    }
 
     .progress-bar {
         width: 400px;
@@ -918,17 +915,21 @@ body {
 
 }
 
-@media (max-width:375px) {
+@media (max-width:320px) {
     .header {
         width: 375px;
     }
 
-    .home {
-        padding: 100px 37% 100px 79px;
+    .home-content {
+        width: 250px;
     }
 
     .home-content p {
-        width: 260px;
+        width: 200px;
+    }
+
+    .home-img img {
+        margin-bottom: 80px;
     }
 
     .home-content h1 {
@@ -936,31 +937,49 @@ body {
     }
 
     .about {
-        width: 451px;
+        width: 300px;
     }
 
-    .portfolio {
-        width: 451px;
+    .about__img {
+        display: none;
     }
 
-    .home-content {
-        margin-left: 80px
+    .services-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
     }
 
-    .home-content p {
-        width: 350px;
+    .progress-bar {
+        width: 250px;
+        font-size: 20px;
     }
 
-    .home-img img {
-        margin-left: 80px;
-        width: 130px;
+    .project {
+        width: 100px;
     }
 
-    .contact {
-        margin-left: 2rem;
+    .portfolio-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .portfolio__box img {
+        width: 50%;
+        border-radius: 3rem;
+        margin-left: 4rem;
+    }
+
+    .contact__me {
+        font-size: 4rem;
+        width: 300px;
+    }
+
+    .contact form {
+        width: 300px;
     }
 
     .footer {
-        width: 451px;
+        width: 300px;
     }
 }
