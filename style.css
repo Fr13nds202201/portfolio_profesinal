@@ -835,13 +835,17 @@ body {
 
 @media (max-width:425px) {
 
+    .home {
+        text-align: center;
+    }
+
     .home-content {
         width: 300px;
         padding-left: 0px;
     }
 
     .home-content p {
-        width: 240px;
+        width: 290px;
     }
 
     .home-content h3 {
@@ -867,17 +871,17 @@ body {
     .home-img img {
         width: 127px;
         border-radius: 36px;
-        margin-right: 90px;
         margin-bottom: 50px;
     }
 
     .about {
-        padding-left: 0px;
-        width: 340px;
+        padding-left: 70px;
+        width: 386px;
     }
 
     .about__content h2 {
         font-size: 3rem;
+        text-align: center;
     }
 
     .about__content h3 {
@@ -888,12 +892,15 @@ body {
     .services {
         padding-left: 0px;
         padding-right: 0px;
-        width: 290px;
+        width: 460px;
     }
 
     .services .progress-bar {
         width: 260px;
+    }
 
+    .services-container .services-box {
+        padding: 1rem 1rem 1rem;
     }
 
     /* projects */
