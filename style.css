@@ -880,6 +880,11 @@ body {
         width: 350px;
     }
 
+    .about__content {
+        width: 280px;
+        text-align: center;
+    }
+
     .about__content h2 {
         font-size: 3rem;
         text-align: center;
@@ -897,7 +902,7 @@ body {
     }
 
     .services-container {
-        width: 290px;
+        width: 400px;
     }
 
     .services .progress-bar {
@@ -910,7 +915,7 @@ body {
 
     /* projects */
     .portfolio {
-        width: 312px;
+        width: 400px;
         padding-left: 0px;
     }
 
@@ -921,6 +926,7 @@ body {
     .portfolio-container {
         display: gid;
         grid-template-columns: repeat(1, 1fr);
+        margin-left: 70px;
     }
 
     .portfolio__box img {
@@ -930,7 +936,8 @@ body {
     }
 
     .contact {
-        width: 280px;
+        padding-left: 100px;
+        width: 360px;
 
     }
 
@@ -939,7 +946,8 @@ body {
     }
 
     .footer {
-        width: 300px;
+        margin-left: 60px;
+        width: 290px;
     }
 
 }
