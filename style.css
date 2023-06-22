@@ -837,6 +837,7 @@ body {
 
     .home {
         text-align: center;
+        width: 90%;
     }
 
     .home-content {
@@ -876,7 +877,7 @@ body {
 
     .about {
         padding-left: 70px;
-        width: 386px;
+        width: 350px;
     }
 
     .about__content h2 {
@@ -892,7 +893,11 @@ body {
     .services {
         padding-left: 0px;
         padding-right: 0px;
-        width: 420px;
+        width: 400px;
+    }
+
+    .services-container {
+        width: 290px;
     }
 
     .services .progress-bar {
