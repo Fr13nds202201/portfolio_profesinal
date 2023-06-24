@@ -1,11 +1,20 @@
 //############ toggle icon narvar  #################
-const toggleIcon = document.querySelector('.toggle_btn')
-const toggleBtnIcon = document.querySelector('.toggle_btn i')
-const dropDownMenu = document.querySelector('.dropdown_menu')
+
+const toggleIcon = document.querySelector('.toggle_btn');
+const toggleBtnIcon = document.querySelector('.toggle_btn i');
+const dropDownMenu = document.querySelector('.dropdown_menu');
 
 toggleIcon.onclick = function(){
-    dropDownMenu.classList.toggle('open')
+    dropDownMenu.classList.toggle('open');
 }
+
+document.onclick = function(e){
+    if (!dropDownMenu.contains(e.target) && !toggleIcon.contains(e.target)) 
+    {
+        dropDownMenu.classList.remove('open');
+    }
+}
+
 
 
 //############ toggle icon narvar  #################

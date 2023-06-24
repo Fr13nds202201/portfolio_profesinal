@@ -831,16 +831,19 @@ a {
 
 @media (max-width:425px) {
 
+    .header {
+        padding: 0.5rem 10%;
+    }
 
     .home {
         text-align: center;
-        width: 90%;
+        width: 100%;
         flex-direction: column;
     }
 
     .home-content {
         width: 300px;
-        padding-left: 0px;
+        padding-left: 7px;
     }
 
     .home-content p {
@@ -855,6 +858,11 @@ a {
         font-size: 2.7rem;
     }
 
+    .social-media {
+        width: 290px;
+        height: 50px;
+    }
+
     .social-media a {
         width: 30px;
         height: 28px;
@@ -863,24 +871,35 @@ a {
     }
 
     .btn {
-        padding: 8px 16px;
+        padding: 8px 20px;
         font-size: 10px;
     }
 
-    .home-img img {
-        width: 127px;
-        border-radius: 36px;
-        margin-bottom: 50px;
+    .home-img {
+        margin-left: 19px;
     }
 
+    .home-img img {
+        display: none;
+    }
+
+    /***********       ABOUT     ********  */
+
     .about {
-        padding-left: 70px;
+        padding-left: 59px;
         width: 350px;
+        flex-direction: column;
+        margin-top: -400px;
+    }
+
+    .about__img {
+        margin-left: 45px;
     }
 
     .about__content {
         width: 280px;
         text-align: center;
+        margin-left: 40px;
     }
 
     .about__content h2 {
@@ -892,7 +911,7 @@ a {
         font-size: 2rem;
     }
 
-    /* SKILL */
+    /************ SKILL ***********************/
     .services {
         padding-left: 0px;
         padding-right: 0px;
@@ -901,6 +920,10 @@ a {
 
     .services-container {
         width: 400px;
+    }
+
+    .bar__skills {
+        margin-left: 100px;
     }
 
     .services .progress-bar {
@@ -914,7 +937,7 @@ a {
     /* projects */
     .portfolio {
         width: 400px;
-        padding-left: 0px;
+        margin-left: 0px;
     }
 
     .portfolio .project {
@@ -933,9 +956,10 @@ a {
         margin-left: 4rem;
     }
 
+    /***************** CONTACTO ****************/
     .contact {
-        padding-left: 100px;
-        width: 360px;
+        margin-left: 73px;
+        width: 330px;
 
     }
 
@@ -944,8 +968,8 @@ a {
     }
 
     .footer {
-        margin-left: 60px;
-        width: 290px;
+        margin-left: 76px;
+        width: 332px;
     }
 
 }
