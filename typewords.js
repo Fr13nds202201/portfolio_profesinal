@@ -1,4 +1,14 @@
 //############ toggle icon narvar  #################
+const toggleIcon = document.querySelector('.toggle_btn')
+const toggleBtnIcon = document.querySelector('.toggle_btn i')
+const dropDownMenu = document.querySelector('.dropdown_menu')
+
+toggleIcon.onclick = function(){
+    dropDownMenu.classList.toggle('open')
+}
+
+
+//############ toggle icon narvar  #################
 const dark = document.querySelector('#contenedor');
 const body = document.querySelector('body');
 const toggle = document.querySelector('#toggle');
