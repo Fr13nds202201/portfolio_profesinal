@@ -7,6 +7,7 @@ const dropDownMenu = document.querySelector('.dropdown_menu');
 toggleIcon.onclick = function(){
     dropDownMenu.classList.toggle('open');
 }
+//############ Funcion para desaparecer el NAVBAR  #################
 
 document.onclick = function(e){
     if (!dropDownMenu.contains(e.target) && !toggleIcon.contains(e.target)) 

@@ -835,6 +835,15 @@ a {
         padding: 0.5rem 10%;
     }
 
+    .dropdown_menu li {
+        height: 45px;
+    }
+
+    .dropdown_menu li a {
+        font-size: 20px;
+        font-family: cursive;
+    }
+
     .home {
         text-align: center;
         width: 100%;
@@ -968,7 +977,7 @@ a {
     }
 
     .footer {
-        margin-left: 76px;
+        margin-left: 60px;
         width: 332px;
     }
 
