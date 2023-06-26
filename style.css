@@ -852,7 +852,7 @@ a {
 
     .home-content {
         width: 300px;
-        padding-left: 7px;
+        padding-left: 0px;
     }
 
     .home-content p {
@@ -896,7 +896,7 @@ a {
 
     .about {
         padding-left: 59px;
-        width: 350px;
+        width: 325px;
         flex-direction: column;
         margin-top: -400px;
     }
@@ -932,7 +932,7 @@ a {
     }
 
     .bar__skills {
-        margin-left: 100px;
+        margin-left: 50px;
     }
 
     .services .progress-bar {
@@ -956,7 +956,11 @@ a {
     .portfolio-container {
         display: gid;
         grid-template-columns: repeat(1, 1fr);
-        margin-left: 70px;
+        margin-left: 72px;
+    }
+
+    .portfolio-container .portfolio__box {
+        width: 250px;
     }
 
     .portfolio__box img {
