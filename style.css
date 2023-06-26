@@ -983,17 +983,26 @@ a {
 
 }
 
-@media (max-width:320px) {
+@media (max-width:375px) {
     .header {
         width: 375px;
     }
 
     .home-content {
-        width: 250px;
+        width: 300px;
+        padding-left: 16px;
     }
 
     .home-content p {
-        width: 200px;
+        width: 275px;
+    }
+
+    .social-media {
+        height: 60px;
+    }
+
+    .about__img {
+        margin-left: 13px;
     }
 
     .home-img img {
@@ -1005,11 +1014,12 @@ a {
     }
 
     .about {
-        width: 300px;
+        padding-left: 40px;
+        width: 365px;
     }
 
     .about__img {
-        display: none;
+        display: block;
     }
 
     .services-container {
@@ -1027,15 +1037,26 @@ a {
         width: 100px;
     }
 
+    .portfolio h2 {
+        width: 370px;
+    }
+
     .portfolio-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .portfolio__box img {
-        width: 50%;
-        border-radius: 3rem;
-        margin-left: 4rem;
+    .portfolio-container .portfolio__box {
+        width: 280px;
+    }
+
+    .portfolio__box .portfolio__layer {
+        width: 315px;
+    }
+
+    .contact {
+        width: 330px;
+        margin-left: 32px;
     }
 
     .contact__me {
@@ -1051,3 +1072,5 @@ a {
         width: 300px;
     }
 }
+
+@media (max-width:320px) {}
