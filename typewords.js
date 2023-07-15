@@ -16,8 +16,6 @@ document.onclick = function(e){
     }
 }
 
-
-
 //############ toggle icon narvar  #################
 const dark = document.querySelector('#contenedor');
 const body = document.querySelector('body');
