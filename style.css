@@ -428,7 +428,7 @@ a {
   font-size: 2.5rem;
   text-align: center;
   animation: slideBottom 1s ease forwards;
-  animation-delay: 0.7s;
+  animation-delay: 0.5s;
 }
 
 .services h2 span {
@@ -439,12 +439,13 @@ a {
   display: flex;
   justify-self: center;
   justify-content: center;
+  padding: 50px 300px 20px 300px;
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
 }
 
-.services-container .services-box {
+.services-box {
   padding: 1rem 2rem 1rem;
   border-radius: 2rem;
   text-align: center;
@@ -452,16 +453,15 @@ a {
   transition: 0.5s ease;
 }
 
+.services-box .service-img {
+  width: 50px;
+  height: 50px;
+}
+
 .services-container .services-box:hover {
-  transform: scale(1.02);
-}
-
-.services-box i {
-  font-size: 3rem;
-}
-
-.services-box h3 {
-  font-size: 1.5rem;
+  transform: scale(1.09);
+  background-color: azure;
+  color: black;
 }
 
 /* Bar progress */
@@ -584,34 +584,34 @@ a {
 
 /* ################ Projects ################*/
 
-.projectTitle{
+.projectTitle {
   display: flex;
   justify-content: center;
   font-size: 25px;
   padding: 10px;
 }
 
-.wrapCard{
+.wrapCard {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.card{
+.card {
   position: relative;
   width: 300px;
   height: 400px;
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
-  transition: .5s;
+  transition: 0.5s;
   margin: 15px 20px;
 }
 
-.card:hover{
-box-shadow: 0 5px 30px rgba(61, 227, 233, 0.838);
-transform: translateY(-15px);
+.card:hover {
+  box-shadow: 0 5px 30px rgba(61, 227, 233, 0.838);
+  transform: translateY(-15px);
 }
 
 .card .head {
@@ -624,10 +624,10 @@ transform: translateY(-15px);
   width: 290px;
   height: 235px;
   margin-left: 30px;
-   position: absolute;
- /* background: #fff;*/
+  position: absolute;
+  /* background: #fff;*/
   padding: 10px;
-  border-radius: 50%; 
+  border-radius: 50%;
 }
 
 .card .head .img img {
@@ -635,16 +635,15 @@ transform: translateY(-15px);
   height: 80%;
   border-radius: 20%;
   object-fit: fill;
-  border-bottom: solid 3px rgba(6, 74, 76, .18);
+  border-bottom: solid 3px rgba(6, 74, 76, 0.18);
 }
 
 .card .description {
   height: 200px;
   padding: 60px 20px 20px 20px;
-  border-bottom: solid 2px rgba(6, 74, 76, .18);
+  border-bottom: solid 2px rgba(6, 74, 76, 0.18);
   text-align: center;
   margin-top: 100px;
-
 }
 
 .card .description h3 {
@@ -680,11 +679,11 @@ transform: translateY(-15px);
   background: var(--second-bg-color);
   padding: 0px 12px;
   border-radius: 5px;
-  transition: .3s;
+  transition: 0.3s;
   margin: 3px;
 }
 
-.card .contact a:hover{
+.card .contact a:hover {
   background: var(--second-bg-color);
 }
 
